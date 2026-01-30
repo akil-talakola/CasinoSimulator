@@ -58,7 +58,7 @@ public class MainMenuView extends JFrame {
         JLabel gamemodeTxt = new JLabel();
         gamemodeTxt.setBounds(20, 0, 130, 60);
         gamemodeTxt.setText("Gamemode: ");
-        gamemodeTxt.setForeground(Color.WHITE);
+        gamemodeTxt.setForeground(Color.GREEN); // Changing from white to green
         gamemodeTxt.setFont(new Font("Dialog", Font.BOLD, 16));
         String[] playOptions = {"Simulated Casino", "Freeplay"};
         gamemodeSelect = new JComboBox<>(playOptions);
@@ -74,7 +74,7 @@ public class MainMenuView extends JFrame {
 
         //blackjack label
         blackjackText = new JLabel("Blackjack");
-        blackjackText.setForeground(Color.WHITE);
+        blackjackText.setForeground(Color.RED); // Changing from white to red
         blackjackText.setBounds(400, 215, 80, 50);
         blackjackText.setFont(new Font("Dialog", Font.BOLD, 16));
         blackjackText.setVisible(false);
