@@ -101,7 +101,7 @@ public class MainMenuView extends JFrame {
         helpText.setVisible(false);
 
         //difficulty text
-        difficultyText = new JLabel("Difficulty:");
+        difficultyText = new JLabel("Level:");
         difficultyText.setForeground(Color.WHITE);
         difficultyText.setBounds(20, 60, 100, 60);
         difficultyText.setFont(new Font("Dialog", Font.BOLD, 16));
