@@ -80,7 +80,7 @@ public class BlackjackView extends JFrame {
         balanceLabel.setBounds(470, 10, 63, 30);
         balanceLabel.setForeground(Color.WHITE);
 
-        balanceTotal = new JLabel("0");
+        balanceTotal = new JLabel("0.00");
         balanceTotal.setBounds(533, 10, 50, 30);
         balanceTotal.setForeground(Color.WHITE);
 
@@ -88,7 +88,7 @@ public class BlackjackView extends JFrame {
         betLabel.setBounds(470, 50, 35, 30);
         betLabel.setForeground(Color.WHITE);
 
-        betTotal = new JLabel("0");
+        betTotal = new JLabel("0.00");
         betTotal.setBounds(505, 50, 50, 30);
         betTotal.setForeground(Color.WHITE);
 
@@ -115,7 +115,7 @@ public class BlackjackView extends JFrame {
         dealerLabel.setBounds(275, 10, 50, 30);
         dealerLabel.setForeground(Color.WHITE);
 
-        dealerTotal = new JLabel("0");
+        dealerTotal = new JLabel("0.00");
         dealerTotal.setBounds(330, 10, 50, 30);
         dealerTotal.setForeground(Color.WHITE);
 
@@ -123,36 +123,36 @@ public class BlackjackView extends JFrame {
         playerLabel.setBounds(275, 234, 50, 30);
         playerLabel.setForeground(Color.WHITE);
 
-        playerTotal = new JLabel("0");
+        playerTotal = new JLabel("0.00");
         playerTotal.setBounds(330, 234, 50, 30);
         playerTotal.setForeground(Color.WHITE);
 
         // Chip labels
-        chip5 = new JLabel("$5");
+        chip5 = new JLabel("$5.00");
         chip5.setBounds(52, 570, 50, 30);
         chip5.setForeground(Color.WHITE);
         chip5.setFont(new Font("Dialog", Font.PLAIN, 14));
         chip5.setVisible(false);
 
-        chip10 = new JLabel("$10");
+        chip10 = new JLabel("$10.00");
         chip10.setBounds(118, 570, 50, 30);
         chip10.setForeground(Color.WHITE);
         chip10.setFont(new Font("Dialog", Font.PLAIN, 14));
         chip10.setVisible(false);
 
-        chip15 = new JLabel("$15");
+        chip15 = new JLabel("$15.00");
         chip15.setBounds(188, 570, 50, 30);
         chip15.setForeground(Color.WHITE);
         chip15.setFont(new Font("Dialog", Font.PLAIN, 14));
         chip15.setVisible(false);
 
-        chip20 = new JLabel("$20");
+        chip20 = new JLabel("$20.00");
         chip20.setBounds(258, 570, 50, 30);
         chip20.setForeground(Color.WHITE);
         chip20.setFont(new Font("Dialog", Font.PLAIN, 14));
         chip20.setVisible(false);
 
-        chip25 = new JLabel("$25");
+        chip25 = new JLabel("$25.00");
         chip25.setBounds(330, 570, 50, 30);
         chip25.setForeground(Color.WHITE);
         chip25.setFont(new Font("Dialog", Font.PLAIN, 14));
